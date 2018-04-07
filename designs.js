@@ -27,6 +27,15 @@ for (let i = 1; i <= height; i++){
             table.lastElementChild.appendChild(newTd)
         }
     }
+
+// set event listener for table - adding color
+table.addEventListener('click', function(event) {
+    if (event.target.nodeName === 'TD'){
+        const colorVal = document.querySelector('#colorPicker').value;
+        event.target.style.backgroundColor = colorVal;
+    }
+});
+
 }
 
 // invoke table - click the submit button
@@ -34,3 +43,4 @@ document.querySelector('#button').addEventListener('click', function (event) {
     event.preventDefault();
     makeGrid();
 });
+
