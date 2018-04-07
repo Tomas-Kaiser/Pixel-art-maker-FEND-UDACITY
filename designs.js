@@ -28,3 +28,9 @@ for (let i = 1; i <= height; i++){
         }
     }
 }
+
+// invoke table - click the submit button
+document.querySelector('#button').addEventListener('click', function (event) {
+    event.preventDefault();
+    makeGrid();
+});
