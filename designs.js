@@ -36,6 +36,13 @@ table.addEventListener('click', function(event) {
     }
 });
 
+// Delete color
+table.addEventListener('dblclick', function (event) {
+    if (event.target.nodeName === 'TD'){
+        event.target.style.backgroundColor = '';
+    }
+});
+
 }
 
 // invoke table - click the submit button
