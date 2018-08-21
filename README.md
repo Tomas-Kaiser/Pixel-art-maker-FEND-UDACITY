@@ -1,6 +1,6 @@
 # Pixel Art Maker Project
 
-Live version of Art Maker here: https://tomas-kaiser.github.io/project-pixel-art-maker-starter/
+Live version of Art Maker here: https://tomas-kaiser.github.io/Pixel-art-maker-FEND-UDACITY/
 
 ## Table of Contents
 
